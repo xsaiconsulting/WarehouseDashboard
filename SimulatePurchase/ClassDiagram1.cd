@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SimulatePurchase.POGenerator">
+    <Position X="1.25" Y="3.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AQAEAAIAAAAAAAAABAAAAABAAQCAAIIAQAAAAAAAAAE=</HashCode>
+      <FileName>POGenerator.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="PurchaseOrder" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SimulatePurchase.SOGenerator">
+    <Position X="1.25" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <AssociationLine Name="SalesOrder" Type="SimulatePurchase.Models.SalesOrder">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.068" Y="0.345" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AQAEAAIABAAAIAAAAAAAAQBAAQAAAIIAQAAACAAAAAk=</HashCode>
+      <FileName>SOGenerator.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="SalesOrder" />
+      <Property Name="ReturnedItem" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SimulatePurchase.Models.PurchaseOrder">
+    <Position X="3.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAgAAAAAAAAAAAAAAAAAAAAAAAACAAACAAgAAAAAA=</HashCode>
+      <FileName>Models\SimulationModels.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SimulatePurchase.Models.SalesOrder">
+    <Position X="3.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAEAAAAAAAAAAEAAAACAAAAAggAIAAAA=</HashCode>
+      <FileName>Models\SimulationModels.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SimulatePurchase.Models.ReturnedItem">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAABAAAAgAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Models\SimulationModels.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
